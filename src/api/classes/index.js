@@ -5,4 +5,6 @@ const controller = require('./classes.controller');
 
 router.get('/', controller.getClasses);
 
+router.post('/', controller.createClass);
+
 module.exports = router;
