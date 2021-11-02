@@ -15,6 +15,7 @@ const Class = sequelize.define('class', {
   section: Sequelize.STRING(45),
   subject: Sequelize.STRING(45),
   room: Sequelize.STRING(45),
+  background: Sequelize.STRING(100),
 });
 
 module.exports = Class;
