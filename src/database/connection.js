@@ -1,8 +1,8 @@
 const Sequelize = require('sequelize');
-const { database } = require('../../config/index.json');
+const config = require('../../config/database.json');
 
-const sequelize = new Sequelize(database.db, database.user, database.password, {
-  host: database.host,
+const sequelize = new Sequelize(config.db, config.user, config.password, {
+  host: config.host,
   dialect: 'mysql',
   pool: {
     max: 5,
