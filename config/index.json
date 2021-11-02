@@ -1,0 +1,9 @@
+{
+  "database": {
+    "host": "db-spl-classroom.cj6fbresody0.ap-southeast-1.rds.amazonaws.com",
+    "port": 3306,
+    "user": "admin",
+    "password": "dbsplclassroom",
+    "db": "spl_classroom"
+  }
+}
